@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+
+import MainLayout from './layouts/MainLayout';
 
 function App() {
+  const [allDrugs, setAllDrugs] = useState([]);
+
+  // leave array empty to only fire once
+  useEffect(() => {
+    const fetchDrugs = async () => {
+      const rsp = await fetch('/drugs.json');
+      const drugs = await rsp.json();
+      setAllDrugs(drugs);
+    };
+    fetchDrugs();
+  }, []);
+  
+  if (allDrugs === null) {
+    return 'Loading ... '
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainLayout drugs={ allDrugs } />
   );
 }
 

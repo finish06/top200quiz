@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.subtitle {
+  font-style: italic;
+  font-size: x-large;
+  color: orange;
+}
+
+.logo {
+  height: 150px;
+  padding: 20px;
+}
+
+.question {
+  font-size: x-large;
+  color: #2FA8CC;
+  margin-left: 34px;
+}

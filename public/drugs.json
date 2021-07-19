@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "generic": "escitalopram",
+        "brand": "Lexapro"
+    },
+    {
+        "id": 2,
+        "generic": "acetaminophen/hydrocodone",
+        "brand": "Norco"
+    },
+    {
+        "id": 3,
+        "generic": "lisinopril",
+        "brand": "Zestril"
+    },
+    {
+        "id": 4,
+        "generic": "simvastatin",
+        "brand": "Zocor"
+    },
+    {
+        "id": 5,
+        "generic": "levothyroxine",
+        "brand": "Synthroid"
+    },
+    {
+        "id": 6,
+        "generic": "amoxicillin",
+        "brand": "Amoxil"
+    },
+    {
+        "id": 7,
+        "generic": "azithromycin",
+        "brand": "Zithromax"
+    },
+    {
+        "id": 8,
+        "generic": "hydrochlorothiazie",
+        "brand": "Microzide"
+    },
+    {
+        "id": 9,
+        "generic": "amlodipine",
+        "brand": "Norvasc"
+    },
+    {
+        "id": 10,
+        "generic": "metformin",
+        "brand": "Glucophage"
+    },
+    {
+        "id": 11,
+        "generic": "atorvastatin",
+        "brand": "Lipitor"
+    },
+    {
+        "id": 12,
+        "generic": "omeprazole",
+        "brand": "Prilosec"
+    },
+    {
+        "id": 13,
+        "generic": "ciprofloxacin",
+        "brand": "Cipro"
+    },
+    {
+        "id": 14,
+        "generic": "ondansetron",
+        "brand": "Zofran"
+    },
+    {
+        "id": 15,
+        "generic": "clozapine",
+        "brand": "Clozaril"
+    },
+    {
+        "id": 16,
+        "generic": "furosemide",
+        "brand": "Lasix"
+    },
+    {
+        "id": 17,
+        "generic": "vardenafil",
+        "brand": "Levitra"
+    },
+    {
+        "id": 18,
+        "generic": "tetracycline",
+        "brand": "Sumycin"
+    },
+    {
+        "id": 19,
+        "generic": "valganciclovir",
+        "brand": "Valcyte"
+    },
+    {
+        "id": 20,
+        "generic": "lamotrigine",
+        "brand": "Lamictal"
+    },
+    {
+        "id": 21,
+        "generic": "fluconazole",
+        "brand": "Diflucan"
+    }
+]
