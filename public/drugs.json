@@ -153,5 +153,105 @@
         "id": 31,
         "generic": "chlorpheniramine hydrocodone",
         "brand": "Tussionex"
+    },
+    {
+        "id": 32,
+        "generic": "paroxetine",
+        "brand": "Paxil"
+    },
+    {
+        "id": 33,
+        "generic": "lorazepam",
+        "brand": "Ativan"
+    },
+    {
+        "id": 34,
+        "generic": "phenazopyridine",
+        "brand": "Pyridium"
+    },
+    {
+        "id": 35,
+        "generic": "hydroxychloroquine",
+        "brand": "Plaquenil"
+    },
+    {
+        "id": 36,
+        "generic": "lidocaine",
+        "brand": "Lidoderm"
+    },
+    {
+        "id": 37,
+        "generic": "diclofenac",
+        "brand": "Cataflam"
+    },
+    {
+        "id": 38,
+        "generic": "prednisone",
+        "brand": "Deltasone"
+    },
+    {
+        "id": 39,
+        "generic": "ezetimibe",
+        "brand": "Zetia"
+    },
+    {
+        "id": 40,
+        "generic": "raloxifene",
+        "brand": "Evista"
+    },
+    {
+        "id": 41,
+        "generic": "phenytoin",
+        "brand": "Dilantin"
+    },
+    {
+        "id": 42,
+        "generic": "omega-3 fatty acids",
+        "brand": "Lovaza"
+    },
+    {
+        "id": 43,
+        "generic": "tizanidine",
+        "brand": "Zanaflex"
+    },
+    {
+        "id": 44,
+        "generic": "terazosin",
+        "brand": "Hytrin"
+    },
+    {
+        "id": 45,
+        "generic": "triamterene",
+        "brand": "Dyrenium"
+    },
+    {
+        "id": 46,
+        "generic": "ramipril",
+        "brand": "Altace"
+    },
+    {
+        "id": 47,
+        "generic": "pravastatin",
+        "brand": "Pravachol"
+    },
+    {
+        "id": 48,
+        "generic": "risperidone",
+        "brand": "Risperdal"
+    },
+    {
+        "id": 49,
+        "generic": "eszopiclone",
+        "brand": "Lunesta"
+    },
+    {
+        "id": 50,
+        "generic": "celecoxib",
+        "brand": "Celebrex"
+    },
+    {
+        "id": 51,
+        "generic": "conjugated estrogens",
+        "brand": "Premarin"
     }
 ]
