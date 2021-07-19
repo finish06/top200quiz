@@ -103,5 +103,55 @@
         "id": 21,
         "generic": "fluconazole",
         "brand": "Diflucan"
+    },
+    {
+        "id": 22,
+        "generic": "atenolol",
+        "brand": "Tenormin"
+    },
+    {
+        "id": 23,
+        "generic": "montelukast",
+        "brand": "Singulair"
+    },
+    {
+        "id": 24,
+        "generic": "fluticasone propionate",
+        "brand": "Flonase"
+    },
+    {
+        "id": 25,
+        "generic": "allopurinol",
+        "brand": "Zyloprim"
+    },
+    {
+        "id": 26,
+        "generic": "alendronate",
+        "brand": "Fosamax"
+    },
+    {
+        "id": 27,
+        "generic": "cefdinir",
+        "brand": "Omnicef"
+    },
+    {
+        "id": 28,
+        "generic": "ethinyl estradiol drospirenone",
+        "brand": "Yaz"
+    },
+    {
+        "id": 29,
+        "generic": "hydralazine",
+        "brand": "Apresoline"
+    },
+    {
+        "id": 30,
+        "generic": "benztropine",
+        "brand": "Cogentin"
+    },
+    {
+        "id": 31,
+        "generic": "chlorpheniramine hydrocodone",
+        "brand": "Tussionex"
     }
 ]
