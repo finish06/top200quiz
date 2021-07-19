@@ -151,7 +151,7 @@
     },
     {
         "id": 31,
-        "generic": "chlorpheniramine hydrocodone",
+        "generic": "chlorpheniramine/hydrocodone",
         "brand": "Tussionex"
     },
     {
@@ -253,5 +253,310 @@
         "id": 51,
         "generic": "conjugated estrogens",
         "brand": "Premarin"
+    },
+    {
+        "id": 52,
+        "generic": "moxifloxacin",
+        "brand": "Avelox"
+    },
+    {
+        "id": 53,
+        "generic": "donepezil",
+        "brand": "Aricept"
+    },
+    {
+        "id": 54,
+        "generic": "nitrofurantoin",
+        "brand": "Macrobid"
+    },
+    {
+        "id": 55,
+        "generic": "fentanyl",
+        "brand": "Duragesic"
+    },
+    {
+        "id": 56,
+        "generic": "isosorbide mononitrate",
+        "brand": "Imdur"
+    },
+    {
+        "id": 57,
+        "generic": "fluoxetine",
+        "brand": "Prozac"
+    },
+    {
+        "id": 58,
+        "generic": "triamcinolone",
+        "brand": "Aristocort"
+    },
+    {
+        "id": 59,
+        "generic": "buprenorphine/naloxone",
+        "brand": "Suboxone"
+    },
+    {
+        "id": 60,
+        "generic": "lisdexamfetamine",
+        "brand": "Vyvanse"
+    },
+    {
+        "id": 61,
+        "generic": "nortriptyline",
+        "brand": "Pamelor"
+    },
+    {
+        "id": 62,
+        "generic": "valproate sodium",
+        "brand": "Depakote"
+    },
+    {
+        "id": 63,
+        "generic": "chlorhexidine",
+        "brand": "ChloraPrep"
+    },
+    {
+        "id": 64,
+        "generic": "dicyclomine",
+        "brand": "Bentyl"
+    },
+    {
+        "id": 65,
+        "generic": "sumatriptin",
+        "brand": "Imitrex"
+    },
+    {
+        "id": 66,
+        "generic": "pantoprazole",
+        "brand": "Protonix"
+    },
+    {
+        "id": 67,
+        "generic": "metoprolol tartrate",
+        "brand": "Lopressor"
+    },
+    {
+        "id": 68,
+        "generic": "dextromethorphan/guaifenesin",
+        "brand": "Robitussin"
+    },
+    {
+        "id": 69,
+        "generic": "diazepam",
+        "brand": "Valium"
+    },
+    {
+        "id": 70,
+        "generic": "sildenafil",
+        "brand": "Viagra"
+    },
+    {
+        "id": 71,
+        "generic": "mupirocin",
+        "brand": "Bactroban"
+    },
+    {
+        "id": 72,
+        "generic": "sitagliptin",
+        "brand": "Januvia"
+    },
+    {
+        "id": 73,
+        "generic": "metoclopramide",
+        "brand": "Reglan"
+    },
+    {
+        "id": 74,
+        "generic": "nabumetone",
+        "brand": "Relafen"
+    },
+    {
+        "id": 75,
+        "generic": "cephalexin",
+        "brand": "Keflex"
+    },
+    {
+        "id": 76,
+        "generic": "venlafaxine",
+        "brand": "Effexor"
+    },
+    {
+        "id": 77,
+        "generic": "ibandronate",
+        "brand": "Boniva"
+    },
+    {
+        "id": 78,
+        "generic": "ranitidine",
+        "brand": "Zantac"
+    },
+    {
+        "id": 79,
+        "generic": "senna",
+        "brand": "Ex-Lax"
+    },
+    {
+        "id": 80,
+        "generic": "insulin aspart",
+        "brand": "Novolog"
+    },
+    {
+        "id": 81,
+        "generic": "aspirin",
+        "brand": "Ecotrin"
+    },
+    {
+        "id": 82,
+        "generic": "baclofen",
+        "brand": "Lioresal"
+    },
+    {
+        "id": 83,
+        "generic": "metronidazole",
+        "brand": "Flagyl"
+    },
+    {
+        "id": 84,
+        "generic": "levetiracetam",
+        "brand": "Keppra"
+    },
+    {
+        "id": 85,
+        "generic": "colchicine",
+        "brand": "Colcrys"
+    },
+    {
+        "id": 86,
+        "generic": "olanzapine",
+        "brand": "Zyprexa"
+    },
+    {
+        "id": 87,
+        "generic": "dutasteride",
+        "brand": "Avodart"
+    },
+    {
+        "id": 88,
+        "generic": "fenofibrate",
+        "brand": "Tricor"
+    },
+    {
+        "id": 89,
+        "generic": "doxazosin",
+        "brand": "Cardura"
+    },
+    {
+        "id": 90,
+        "generic": "naproxen",
+        "brand": "Aleve"
+    },
+    {
+        "id": 91,
+        "generic": "spironolactone",
+        "brand": "Aldactone"
+    },
+    {
+        "id": 92,
+        "generic": "memantine",
+        "brand": "Namenda"
+    },
+    {
+        "id": 93,
+        "generic": "methadone",
+        "brand": "Methadose"
+    },
+    {
+        "id": 94,
+        "generic": "enalapril",
+        "brand": "Vasotec"
+    },
+    {
+        "id": 95,
+        "generic": "oseltamivir",
+        "brand": "Tamiflu"
+    },
+    {
+        "id": 96,
+        "generic": "ropinirole",
+        "brand": "Requip"
+    },
+    {
+        "id": 97,
+        "generic": "penicillin",
+        "brand": "Pen VK"
+    },
+    {
+        "id": 98,
+        "generic": "atomoxetine",
+        "brand": "Strattera"
+    },
+    {
+        "id": 99,
+        "generic": "zolpidem",
+        "brand": "Ambien"
+    },
+    {
+        "id": 100,
+        "generic": "salmeterol/fluticasone",
+        "brand": "Advair"
+    },
+    {
+        "id": 101,
+        "generic": "levofloxacin",
+        "brand": "Levaquin"
+    },
+    {
+        "id": 102,
+        "generic": "imipramine",
+        "brand": "Tofranil"
+    },
+    {
+        "id": 103,
+        "generic": "zoledronic acid",
+        "brand": "Reclast"
+    },
+    {
+        "id": 104,
+        "generic": "glipizide",
+        "brand": "Glucotrol"
+    },
+    {
+        "id": 105,
+        "generic": "lactulose",
+        "brand": "Constulose"
+    },
+    {
+        "id": 106,
+        "generic": "rabeprazole",
+        "brand": "AcipHex"
+    },
+    {
+        "id": 107,
+        "generic": "methotrexate",
+        "brand": "Otrexup"
+    },
+    {
+        "id": 108,
+        "generic": "clindamycin",
+        "brand": "Cleocin"
+    },
+    {
+        "id": 109,
+        "generic": "acetaminophen",
+        "brand": "Tylenol"
+    },
+    {
+        "id": 110,
+        "generic": "ferrous sulfate",
+        "brand": "Feosol"
+    },
+    {
+        "id": 111,
+        "generic": "eletritan",
+        "brand": "Relpax"
+    },
+    {
+        "id": 112,
+        "generic": "methocarbamol",
+        "brand": "Robaxin"
     }
 ]
