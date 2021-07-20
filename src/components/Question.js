@@ -16,10 +16,6 @@ const Question = ({ drugs }) => {
 	const [ isCorrect, setIsCorrect ] = useState('Keep studying.');
 	const [ reload, setReload ] = useState(false);
 
-	const setModalIsOpenToFalse = () => {
-		setIsModalOpen(false);
-	};
-
 	const setReloadToTrue = () => {
 		setReload(true);
 		setIsModalOpen(false);
