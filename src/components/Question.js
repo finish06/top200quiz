@@ -77,10 +77,10 @@ const Question = ({ drugs }) => {
 					</button>
 				))}
 			</div>
-			<Modal show={isModalOpen} onHide={setModalIsOpenToFalse}>
+			<Modal show={isModalOpen} onHide={setReloadToTrue}>
 				<Modal.Header>
 					<Modal.Title>{isCorrect}</Modal.Title>
-					<button className="btn-close" onClick={setModalIsOpenToFalse} />
+					<button className="btn-close" onClick={setReloadToTrue} />
 				</Modal.Header>
 				<Modal.Body>
 					{drugs[answerIndex]['brand']} is the brand name for {drugs[answerIndex]['generic']}
