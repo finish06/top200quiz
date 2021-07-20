@@ -43,6 +43,12 @@
   color: orange;
 }
 
+.scoreCard {
+  font-size: large;
+  color: orange;
+  margin-left: 34px;
+}
+
 .logo {
   height: 150px;
   padding: 20px;
