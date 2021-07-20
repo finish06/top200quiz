@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 
+import Scorecard from './Scorecard';
+
 const Question = ({ drugs }) => {
 	function shuffleArray(array) {
 		for (let i = array.length - 1; i > 0; i--) {
@@ -13,12 +15,9 @@ const Question = ({ drugs }) => {
 	const [ optionsArray, setOptionsArray ] = useState([]);
 	const [ answerIndex, setAnswerIndex ] = useState(0);
 	const [ isModalOpen, setIsModalOpen ] = useState(false);
-	const [ isCorrect, setIsCorrect ] = useState('Keep studying.');
+	const [ isCorrect, setIsCorrect ] = useState('Keep studying...');
 	const [ reload, setReload ] = useState(false);
-
-	const setModalIsOpenToFalse = () => {
-		setIsModalOpen(false);
-	};
+	const [ scoreCard, setScoreCard ] = useState([ 0, 0 ]);
 
 	const setReloadToTrue = () => {
 		setReload(true);
@@ -30,6 +29,13 @@ const Question = ({ drugs }) => {
 		console.log(e.target.value);
 		if (drugs[answerIndex]['brand'] === e.target.value) {
 			setIsCorrect('Woohoo, you are correct!');
+			let score = scoreCard[0] + 1;
+			let attempts = scoreCard[1] + 1;
+			setScoreCard([ score, attempts ]);
+		} else {
+			let score = scoreCard[0];
+			let attempts = scoreCard[1] + 1;
+			setScoreCard([ score, attempts ]);
 		}
 	};
 
@@ -62,6 +68,7 @@ const Question = ({ drugs }) => {
 
 	return (
 		<div>
+			<Scorecard scoreCard={scoreCard} />
 			<div className="col-md-12">
 				<h2 className="question">What is the brand name of {drugs[answerIndex]['generic']}?</h2>
 			</div>
@@ -77,10 +84,10 @@ const Question = ({ drugs }) => {
 					</button>
 				))}
 			</div>
-			<Modal show={isModalOpen} onHide={setModalIsOpenToFalse}>
+			<Modal show={isModalOpen} onHide={setReloadToTrue}>
 				<Modal.Header>
 					<Modal.Title>{isCorrect}</Modal.Title>
-					<button className="btn-close" onClick={setModalIsOpenToFalse} />
+					<button className="btn-close" onClick={setReloadToTrue} />
 				</Modal.Header>
 				<Modal.Body>
 					{drugs[answerIndex]['brand']} is the brand name for {drugs[answerIndex]['generic']}
