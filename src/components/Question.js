@@ -56,7 +56,7 @@ const Question = ({ drugs }) => {
 				setAnswerIndex(answerIndex);
 				setOptionsArray(shuffleArray(optionsArray));
 				setReload(false);
-				setIsCorrect('Keep studying.');
+				setIsCorrect('Keep studying...');
 			}
 		},
 		[ drugs.length, reload ]
@@ -69,13 +69,15 @@ const Question = ({ drugs }) => {
 	return (
 		<div>
 			<Scorecard scoreCard={scoreCard} />
-			<div className="col-md-12">
-				<h2 className="question">What is the brand name of {drugs[answerIndex]['generic']}?</h2>
+			<div className="row">
+				<div className="offset-1 col-md-6 my-1">
+					<h2 className="question">What is the brand name of {drugs[answerIndex]['generic']}?</h2>
+				</div>
 			</div>
-			<div className="d-grid gap-2">
+			<div className="d-grid gap-2 col-md-8 lead mx-auto">
 				{optionsArray.map((option, i) => (
 					<button
-						className="btn btn-outline-warning"
+						className="btn btn-primary"
 						onClick={(e) => setModalIsOpenToTrue(e, 'value')}
 						key={i}
 						value={drugs[option]['brand']}
@@ -93,7 +95,7 @@ const Question = ({ drugs }) => {
 					{drugs[answerIndex]['brand']} is the brand name for {drugs[answerIndex]['generic']}
 				</Modal.Body>
 				<Modal.Footer>
-					<button className="btn btn-outline-primary" onClick={setReloadToTrue}>
+					<button className="btn btn-primary" onClick={setReloadToTrue}>
 						Next Question
 					</button>
 				</Modal.Footer>

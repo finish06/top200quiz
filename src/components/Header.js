@@ -2,10 +2,10 @@ import logo from '../assets/medication.png';
 
 const Header = () => (
 	<header className="row">
-		<div className="col-4">
-			<img src={logo} className="logo float-sm-left float-md-end" alt="logo" />
+		<div className=" col col-sm-4">
+			<img src={logo} className="logo float-sm-end mt-3" alt="logo" />
 		</div>
-		<p className="col-7 mt-5 subtitle">Test your knowledge of the top 200 medications</p>
+		<span className="col-md-7 display-6 subtitle my-auto">Test your knowledge of the top 200 medications</span>
 	</header>
 );
 
