@@ -558,5 +558,146 @@
         "id": 112,
         "generic": "methocarbamol",
         "brand": "Robaxin"
+    },
+    {
+        "id": 113,
+        "generic": "glyburide",
+        "brand": "DiaBeta"
+    },
+    {
+        "id": 114,
+        "generic": "citalopram",
+        "brand": "Celexa"
+    },
+    {
+        "id": 115,
+        "generic": "hydrochlorothiazide/olmesartan",
+        "brand": "Benicar"
+    },
+    {
+        "id": 116,
+        "generic": "carvedilol",
+        "brand": "Coreg"
+    },
+    {
+        "id": 117,
+        "generic": "tiotropium",
+        "brand": "Spiriva"
+    },
+    {
+        "id": 118,
+        "generic": "omalizumab",
+        "brand": "Xolair"
+    },
+    {
+        "id": 119,
+        "generic": "nitroglycerin",
+        "brand": "NitroStat"
+    },
+    {
+        "id": 120,
+        "generic": "apixaban",
+        "brand": "Eliquis"
+    },
+    {
+        "id": 121,
+        "generic": "gabapentin",
+        "brand": "Neurontin"
+    },
+    {
+        "id": 122,
+        "generic": "etanercept",
+        "brand": "Enbrel"
+    },
+    {
+        "id": 123,
+        "generic": "trastuzumab",
+        "brand": "Herceptin"
+    },
+    {
+        "id": 124,
+        "generic": "emtricitabine/tenofovir/efavirenz",
+        "brand": "Atripla"
+    },
+    {
+        "id": 125,
+        "generic": "rivaroxaban",
+        "brand": "Xarelto"
+    },
+    {
+        "id": 126,
+        "generic": "levodopa/carbidopa/entacapone",
+        "brand": "Stalevo 50"
+    },
+    {
+        "id": 127,
+        "generic": "acetaminophen/butalbital/caffeine",
+        "brand": "Fioricet"
+    },
+    {
+        "id": 128,
+        "generic": "insulin detemir",
+        "brand": "Levemir"
+    },
+    {
+        "id": 129,
+        "generic": "enoxaparin",
+        "brand": "Lovenox"
+    },
+    {
+        "id": 130,
+        "generic": "methylphenidate",
+        "brand": "Ritalin"
+    },
+    {
+        "id": 131,
+        "generic": "rosuvastatin",
+        "brand": "Crestor"
+    },
+    {
+        "id": 132,
+        "generic": "denosumab",
+        "brand": "Xgeva"
+    },
+    {
+        "id": 133,
+        "generic": "dabigatran",
+        "brand": "Pradaxa"
+    },
+    {
+        "id": 134,
+        "generic": "cinacalcet",
+        "brand": "Sensipar"
+    },
+    {
+        "id": 135,
+        "generic": "solifenacin",
+        "brand": "Vesicare"
+    },
+    {
+        "id": 136,
+        "generic": "haloperidol",
+        "brand": "Haldol"
+    },
+    {
+        "id": 137,
+        "generic": "hydrocortisone",
+        "brand": "Ala-Cort"
+    },
+    {
+        "id": 138,
+        "generic": "insulin isophane",
+        "brand": "Humulin"
+    },
+    {
+        "id": 139,
+        "generic": "raltegravir",
+        "brand": "Isentress"
+
+    },
+    {
+        "id": 140,
+        "generic": "ustekinumab",
+        "brand": "Stelara"
     }
 ]
