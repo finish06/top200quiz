@@ -70,7 +70,6 @@ const Question = ({ drugs }) => {
 	return (
 		<div>
 			<Scorecard scoreCard={scoreCard} />
-			<QuestionCount scoreCard={scoreCard} />
 			<div className="row">
 				<div className="text-center my-1">
 					<h2 className="question">What is the brand name of {drugs[answerIndex]['generic']}?</h2>
