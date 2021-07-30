@@ -17,7 +17,9 @@ const Question = ({ drugs }) => {
 	const [ answerIndex, setAnswerIndex ] = useState(0);
 	const [ isModalOpen, setIsModalOpen ] = useState(false);
 	const [ isCorrect, setIsCorrect ] = useState('Keep studying...');
+	const [ finalMsg, setFinalMsg ] = useState('Keeping studying...');
 	const [ reload, setReload ] = useState(false);
+	const [ restart, setRestart ] = useState(false);
 	const [ scoreCard, setScoreCard ] = useState([ 0, 0 ]);
 
 	const setReloadToTrue = () => {
@@ -25,11 +27,25 @@ const Question = ({ drugs }) => {
 		setIsModalOpen(false);
 	};
 
+	const setRestartToTrue = () => {
+		setRestart(true);
+		setIsModalOpen(false);
+		setScoreCard([ 0, 0 ]);
+	};
+
+	const setFinalScoreText = () => {
+		if (scoreCard[0] > 9) {
+			setFinalMsg('You are a rockstar!  Way to go!');
+		} else if (scoreCard[0] > 8) {
+			setFinalMsg('So close to a perfect score!');
+		}
+	};
+
 	const setModalIsOpenToTrue = (e) => {
 		setIsModalOpen(true);
 		console.log(e.target.value);
 		if (drugs[answerIndex]['brand'] === e.target.value) {
-			setIsCorrect('Woohoo, you are correct!');
+			setIsCorrect('Woohoo! Nice job.');
 			let score = scoreCard[0] + 1;
 			let attempts = scoreCard[1] + 1;
 			setScoreCard([ score, attempts ]);
@@ -38,6 +54,7 @@ const Question = ({ drugs }) => {
 			let attempts = scoreCard[1] + 1;
 			setScoreCard([ score, attempts ]);
 		}
+		setFinalScoreText();
 	};
 
 	useEffect(
@@ -60,7 +77,7 @@ const Question = ({ drugs }) => {
 				setIsCorrect('Keep studying...');
 			}
 		},
-		[ drugs.length, reload ]
+		[ drugs.length, reload, restart ]
 	);
 
 	if (drugs.length === 0) {
@@ -87,20 +104,37 @@ const Question = ({ drugs }) => {
 					</button>
 				))}
 			</div>
-			<Modal show={isModalOpen} onHide={setReloadToTrue}>
-				<Modal.Header>
-					<Modal.Title>{isCorrect}</Modal.Title>
-					<button className="btn-close" onClick={setReloadToTrue} />
-				</Modal.Header>
-				<Modal.Body>
-					{drugs[answerIndex]['brand']} is the brand name for {drugs[answerIndex]['generic']}
-				</Modal.Body>
-				<Modal.Footer>
-					<button className="btn btn-primary" onClick={setReloadToTrue}>
-						Next Question
-					</button>
-				</Modal.Footer>
-			</Modal>
+			<div>
+				{scoreCard[1] < 10 ? (
+					<Modal show={isModalOpen} onHide={setReloadToTrue}>
+						<Modal.Header>
+							<Modal.Title>{isCorrect}</Modal.Title>
+							<button className="btn-close" onClick={setReloadToTrue} />
+						</Modal.Header>
+						<Modal.Body>
+							{drugs[answerIndex]['brand']} is the brand name for {drugs[answerIndex]['generic']}
+						</Modal.Body>
+						<Modal.Footer>
+							<button className="btn btn-primary" onClick={setReloadToTrue}>
+								Next Question
+							</button>
+						</Modal.Footer>
+					</Modal>
+				) : (
+					<Modal show={isModalOpen}>
+						<Modal.Header>
+							<Modal.Title>{finalMsg}</Modal.Title>
+							<button className="btn-close" onClick={setRestartToTrue} />
+						</Modal.Header>
+						<Modal.Body>You scored {scoreCard[0]} out of 10</Modal.Body>
+						<Modal.Footer>
+							<button className="btn btn-primary" onClick={setRestartToTrue}>
+								Play Again
+							</button>
+						</Modal.Footer>
+					</Modal>
+				)}
+			</div>
 		</div>
 	);
 };
