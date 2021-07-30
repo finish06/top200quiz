@@ -1,11 +1,13 @@
 import logo from '../assets/medication.png';
 
 const Header = () => (
-	<header className="row">
-		<div className=" col col-sm-4">
-			<img src={logo} className="logo float-sm-end mt-3" alt="logo" />
+	<header className="row justify-content-center">
+		<div className="col-3 my-4">
+			<img src={logo} className="float-end logo" alt="logo" />
 		</div>
-		<span className="col-md-7 display-5 subtitle my-auto">Test your knowledge of the top 200 medications</span>
+		<div className="col-8 d-flex align-items-center">
+			<span className="display-5 subtitle">Test your knowledge of the top 200 medications</span>
+		</div>
 	</header>
 );
 
