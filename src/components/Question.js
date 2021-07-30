@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 
 import Scorecard from './Scorecard';
+import QuestionCount from './QuestionCount';
 
 const Question = ({ drugs }) => {
 	function shuffleArray(array) {
@@ -69,8 +70,9 @@ const Question = ({ drugs }) => {
 	return (
 		<div>
 			<Scorecard scoreCard={scoreCard} />
+			<QuestionCount scoreCard={scoreCard} />
 			<div className="row">
-				<div className="offset-1 col-md-6 my-1">
+				<div className="text-center my-1">
 					<h2 className="question">What is the brand name of {drugs[answerIndex]['generic']}?</h2>
 				</div>
 			</div>
