@@ -1,6 +1,6 @@
 # Top 200 Brand / Generic Web Application Quiz
 
-# Hosted at top200quiz.calebdunn.tech
+## Hosted at https://top200quiz.calebdunn.tech
 
 ![Website Preview](./website.png)
 
