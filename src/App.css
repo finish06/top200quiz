@@ -37,6 +37,10 @@
   }
 }
 
+.startQuiz {
+  height: 150px;
+}
+
 .subtitle {
   font-style: italic;
   color: #ED5151;

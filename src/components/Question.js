@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 
 import Scorecard from './Scorecard';
-import QuestionCount from './QuestionCount';
 
 const Question = ({ drugs }) => {
 	function shuffleArray(array) {
